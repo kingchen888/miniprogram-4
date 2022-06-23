@@ -1,0 +1,22 @@
+input {
+    display: inline-block;
+    margin: 10px 5px;
+    width: 335px;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px skyblue;
+}
+textarea { 
+    margin: 10px 5px;
+    width: 335px;
+    height: 200px;
+    padding: 10px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px skyblue;
+}
+button {
+    margin-top: 20px;
+}

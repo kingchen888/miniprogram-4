@@ -1,0 +1,23 @@
+/* pageDoctor/Dknowledge/Dknowledge.wxss */
+.box1{
+  height: 380px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin: 10px;
+}
+.box{
+  width: 150px;
+  height: 170px;
+  border: 2px solid skyblue;
+  border-radius: 10px;
+  box-shadow: 5px 5px skyblue;
+  font-size: 20px;
+  text-align: center;
+}
+.box image{
+  width: 150px;
+  height: 140px;
+}

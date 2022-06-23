@@ -1,0 +1,14 @@
+<view class="box1">
+  <view class="box" bindtap="gotoDoctorAdd">
+  发布知识科普<image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/kepu.png?sign=e7490b4a83b002d2ca9753c9e7a5064b&t=1655174341"></image>
+</view>
+<view class="box" bindtap="gotoAppointmentRecord">
+  预约记录 <image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/guahao.png?sign=c0934c17aefac427b436636809279a61&t=1655174439"></image>
+</view>
+<view class="box" bindtap="gotoMessageList">
+  回复问诊<image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/wenyisheng.png?sign=1054baba2f10192dcc8b62d3bb33cc38&t=1655174475"></image>
+</view>
+<view class="box" bindtap="gotoChangePwd">
+  修改密码<image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/yibaochaxun.png?sign=4123d9ec3b94671560f80a67eb2fff86&t=1655174538"></image>
+</view>
+</view>

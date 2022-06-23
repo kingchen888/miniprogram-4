@@ -1,0 +1,35 @@
+
+<van-cell-group>
+  <van-field
+    value="{{ _id }}"
+    required
+    clearable
+    label="用户名"
+    icon="question-o"
+    placeholder="请输入用户名"
+    bind:click-icon="onClickIcon"
+    bind:change="onChange"
+  />
+
+  <van-field
+    value="{{ password }}"
+    type="password"
+    label="密码"
+    placeholder="请输入密码"
+    required
+    border="{{ false }}"
+    bind:change="onChangePwd"
+  />
+</van-cell-group >
+<van-button type="primary" block bind:click="onLogin" round style="margin-bottom: 10px;">登录</van-button>
+<br/>
+<van-button type="primary" block bindtap="jumpRegistration" round>注册</van-button>
+<van-toast 
+    id="van-toast"
+    type="fail "
+    position="top"
+/>
+
+
+
+

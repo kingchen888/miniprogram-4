@@ -1,0 +1,61 @@
+/* pages/myself/myself.wxss */
+.box {
+    height: 125px;
+    background-color: skyblue;
+    padding-top: 15px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    /* padding-top: 60px; */
+}
+.btn{
+    margin-top: 40px;
+    background-color: skyblue;
+    color: #fff;
+    border-radius: 15px;
+}
+.userinfo-avatar {
+    overflow: hidden;
+    width: 160rpx;
+    height: 160rpx;
+    margin: 20rpx;
+    border-radius: 15px;
+  }
+.userinfo-nickname {
+    display: inline-block;
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    top: 25px;
+    left: 108px;
+    font-weight: 700;
+    font-size: larger;
+}
+.genderStr {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 60px;
+    left: 108px;
+    font-weight: 500;
+    font-size: medium;
+}
+.country {
+    display: inline-block;
+    width: 150px;
+    height: 15px;
+    position: absolute;
+    top: 90px;
+    left: 108px;
+    font-weight: 500;
+    font-size: small;
+    color: #a09999;
+}
+van-cell{
+  margin-left: 10px;
+  margin-right: 10px;
+}

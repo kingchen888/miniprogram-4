@@ -1,0 +1,63 @@
+<!--pages/myself/myself.wxml-->
+<view class="box">
+    <button class="btn"  open-type="getUserInfo" bindtap="getUserProfile" wx:if="{{showPower}}">授权登录</button>
+    <block>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <text class="genderStr">{{genderStr}}</text>
+      <text class="country">{{country}}   {{province}}   {{city}}</text>
+    </block>
+</view>
+<van-cell
+  is-link
+  title="我的预约"
+  link-type="navigateTo"
+  url="../myAppointment/myAppointment"
+  size="large"
+  style="margin-bottom: 10px;"
+/>
+
+  <van-cell
+    is-link
+    title="编辑个人资料"
+    inset="true"
+    bind:click="jumpEditProfile"
+    size="large"
+  />
+  <van-cell
+    is-link
+    title="修改密码"
+    link-type="navigateTo"
+    url="../../pageLogin/changePwd/changePwd"
+    size="large"
+  />
+  <van-cell
+   is-link
+   title="联系我们"
+   link-type="navigateTo"
+    url="../customerService/customerService"
+    size="large"
+  />
+  <van-cell
+   is-link
+   title="其他方式登录"
+    link-type="navigateTo"
+    url="../../pageLogin/login/login"
+   size="large"
+  />
+  <van-cell
+    is-link
+   title="退出登录"
+    link-type="reLaunch"
+   url="../myself/myself"
+   size="large"
+  />
+
+<van-cell
+  is-link
+  title="设置"
+  link-type="navigateTo"
+  url="../../pageLogin/changePwd/changePwd"
+  size="large"
+  style="margin-top: 20px;"
+/>

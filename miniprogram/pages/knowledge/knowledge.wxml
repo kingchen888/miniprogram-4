@@ -1,0 +1,42 @@
+<!-- 内科 -->
+<view class="box">
+<view bindtap="getShow" data-id="1">
+        <image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/neike.png?sign=f6aabac9be35833630e8549ee066d32e&t=1655013177" mode="aspectFit"></image>
+</view>
+<!-- 外科 -->
+<view bindtap="getShow" data-id="2">
+        <image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/waike.png?sign=1dad1713d73a5732ce66b8f86048fd2f&t=1655013214" mode="aspectFit"></image>
+</view>
+<!-- 骨科 -->
+<view bindtap="getShow" data-id="3">
+        <image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/guke.png?sign=aaaa19d7b24b2e5a4a9b7a6c535501c6&t=1655013248" mode="aspectFit"></image>
+</view>
+<!-- 儿科 -->
+<view bindtap="getShow" data-id="4">
+        <image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/erke.png?sign=d3c88abc6bfd157432feffdcb796954f&t=1655013266" mode="aspectFit"></image>
+</view>
+<!-- 五官科 -->
+<view bindtap="getShow" data-id="5">
+        <image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/wuguanke.png?sign=e55881a6611dc168692b5f22c3ef22b5&t=1655013317" mode="aspectFit"></image>
+</view>
+<!-- 皮肤科 -->
+<view bindtap="getShow" data-id="6">
+        <image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/pifuke.png?sign=82c5d356ac46ee8e9b7351eb6e4b76b5&t=1655013332" mode="aspectFit"></image>
+</view>
+<!-- 神经科 -->
+<view bindtap="getShow" data-id="7">
+        <image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/shenjingke.png?sign=ee25a9c616da170b4bc018b64a00f9c4&t=1655013346" mode="aspectFit"></image>
+</view>
+<!-- 妇产科 -->
+<view bindtap="getShow" data-id="8">
+        <image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/fuchanke.png?sign=a9da2181f42df729fad695f6297b0e0a&t=1655013364" mode="aspectFit"></image>
+</view>
+<!-- 传染科 -->
+<view bindtap="getShow" data-id="9">
+        <image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/chuanruanke.png?sign=88dac91858dae2fcfe774671922d95d7&t=1655013386" mode="aspectFit"></image>
+</view>
+</view>
+<!-- 展示图片 -->
+<view class="picture">
+        <image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/yiliao1.png?sign=d668ed7b90a1b5debd258140b8994da7&t=1655013423"></image>
+</view>

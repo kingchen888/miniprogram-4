@@ -1,0 +1,65 @@
+<view class="title">预约挂号</view>
+<form bindsubmit="onSubmit" bindreset="onReset">
+
+    <!-- 姓名 -->
+    <view class="box">
+      <view>姓名：</view>
+      <input class="one" name="realname" type="text" placeholder="请输入您的姓名"/>
+    </view>
+
+    <!-- 手机号码 -->
+    <view class="box">
+      <view>手机号码：</view>
+      <input class="one" name="phonenumber" type="text" placeholder="请输入您的手机号码"/>
+    </view>
+
+    <!-- 医院 -->
+    <view class="box">
+      <view>医院：</view>
+      <input class="one" name="hospital" type="text" placeholder="请输入您要预约的医院"/>
+    </view>
+
+    <!-- 科室 -->
+    <view class="box">
+      <view>科室：</view>
+      <picker name="departmentID" mode="selector" range="{{departmentItems}}" bindchange="departmentChange">
+        <view class="one">{{department}}</view>
+      </picker>
+    </view>
+
+    <!-- 医生 -->
+    <view class="box">
+      <view>医生：</view>
+      <picker name="doctorID" mode="selector" range="{{doctorItems}}" 
+      range-key="{{'name'}}"
+      bindchange="doctorChange">
+        <view class="one">{{doctor}}</view>
+      </picker>
+    </view>
+
+    <!-- 具体时间 -->
+    <view class="box">
+     <view>具体时间：</view>
+      <picker name="timeID" mode="selector" range="{{timeItems}}" bindchange="timeChange">
+        <view class="one">{{time}}</view>
+      </picker>
+    </view>
+
+    <!-- 备注 -->
+    <view class="box">
+      <view>备注：</view>
+      <input class="one" name="remarks" type="text" placeholder="请输入备注信息"/>
+    </view>
+    
+    <!-- 按钮 -->
+    <view class="button">
+      <navigator url="../myAppointment/myAppointment">
+        <button form-type="submit" class="two">提交预约</button>
+      </navigator>
+      <button form-type="reset" class="two">重置</button>
+    </view>
+
+    
+    
+</form>
+

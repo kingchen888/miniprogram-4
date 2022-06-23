@@ -1,0 +1,30 @@
+<van-field
+    model:value="{{ currentPwd }}"
+    type="password"
+    label="当前密码"
+    placeholder="请输入当前密码"
+    border="{{ false }}"
+    bind:change="onChange_currentPwd"
+  />
+  <van-field
+    model:value="{{ newPwd }}"
+    type="password"
+    label="新密码"
+    placeholder="请输入新密码"
+    border="{{ false }}"
+    bind:change="onChange_newPwd"
+  />
+  <van-field
+    model:value="{{ confirmPwd }}"
+    type="password"
+    label="确认密码"
+    placeholder="请输入新密码"
+    border="{{ false }}"
+    bind:change="onChange_confirmPwd"
+  />
+  <van-button type="primary" block bind:click="confirmModification" round>确认修改</van-button>
+<van-toast 
+    id="van-toast"
+    type="fail "
+    position="top"
+/>

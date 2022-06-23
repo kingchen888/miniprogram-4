@@ -1,0 +1,48 @@
+<!--pages/personalData/personalData.wxml-->
+<van-field
+    model:value="{{ nickName }}"
+    label="昵称"
+    placeholder="{{}}"
+    border="{{ false }}"
+    disabled
+/>
+<van-field
+    model:value="{{ genderStr }}"
+    label="性别"
+    placeholder="{{}}"
+    border="{{ false }}"
+    bind:change="onChange_genderStr"
+    disabled="{{showEdit}}"
+/>
+<van-field
+    model:value="{{ country }}"
+    label="国家"
+    placeholder="{{}}"
+    border="{{ false }}"
+    bind:change="onChange_country"
+    disabled="{{showEdit}}"
+/>
+<van-field
+    model:value="{{ province }}"
+    label="省份"
+    placeholder="{{}}"
+    border="{{ false }}"
+    bind:change="onChange_province"
+    disabled="{{showEdit}}"
+/>
+<van-field
+    model:value="{{ city }}"
+    label="城市"
+    placeholder="{{}}"
+    border="{{ false }}"
+    bind:change="onChange_city"
+    disabled="{{showEdit}}"
+/>
+<van-button type="primary" block bind:click="edit" round wx:if="{{showEdit}}">编辑</van-button>
+<van-button type="primary" block bind:click="confirmModification" round wx:if="{{showButton}}">确认修改</van-button>
+<van-toast 
+    id="van-toast"
+    type="fail "
+    position="top"
+/>
+

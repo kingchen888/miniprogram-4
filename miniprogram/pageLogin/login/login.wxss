@@ -1,0 +1,6 @@
+/* page/index/index.wxss */
+button{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}

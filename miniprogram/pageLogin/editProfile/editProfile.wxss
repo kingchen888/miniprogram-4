@@ -1,0 +1,5 @@
+/* page/editProfile/editProfile.wxss */
+.btn{
+    margin-top: 10px;
+    background-color: skyblue;
+}

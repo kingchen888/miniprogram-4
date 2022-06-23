@@ -1,0 +1,32 @@
+<!--pageChat/message/message.wxml-->
+<view class="head">
+    {{name}}
+</view>
+<scroll-view scroll-y class="scroll" scroll-top="{{scroll_top}}">
+    <view wx:for="{{messageList[0].message}}">
+        <view class="left" wx:if="{{item.current_id!=admin_id}}">
+            <view class="left-head">
+                <image src="{{avatarUrl}}" class="left-image"       mode="aspectFit"></image>
+                <view class="left-text">
+                    <text>{{item.content}}</text>
+                </view>
+            </view>
+        </view>
+        <view class="right" wx:if="{{item.current_id==admin_id}}">
+            <view class="right-head">
+                <view class="right-text">
+                    <text>{{item.content}}</text>
+                </view>
+                <image src="{{defaultAvatar}}" class="right-image" mode="aspectFit"></image>
+            </view>
+        </view>
+    </view>
+</scroll-view>
+
+<block>
+    <input class="input-box" confirm-type="send" type="text" adjust-position="true" value="{{value}}" bindinput="onChange"/>
+    <view class="send-out" hover-start-time="60" hover-class="true">
+        <button type="primary" bindtap="send_out">发送</button>
+        <!-- <view class="fasong">发送</view> -->
+    </view>
+</block>

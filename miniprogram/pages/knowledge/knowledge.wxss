@@ -1,0 +1,35 @@
+/* 科室盒子布局 */
+.box {
+  width: 90%x;
+  height: 360px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+/* 科室图片样式 */
+.box image {
+  width: 105px;
+  height: 105px;
+  border: 2px solid #19b3b893;
+  border-radius: 8px;
+  box-shadow: 2px 2px #19b3b893;
+}
+/* 展示图片样式 */
+.picture{
+  width: 93%;
+  height: 160px;
+  margin: 10px;
+  padding-top: 1px;
+  padding-left: 2px;
+  border: 2px solid #19b3b893;
+  border-radius: 8px;
+  box-shadow: 2px 2px #19b3b893;
+}
+.picture image {
+  width: 100%;
+  height: 155px;
+  
+  /* margin: 10px; */
+}

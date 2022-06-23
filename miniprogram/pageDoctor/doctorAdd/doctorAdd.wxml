@@ -1,0 +1,9 @@
+<form bindsubmit="btnSub">
+  <input name="title" placeholder="请输入标题"></input>
+  <input name="time" placeholder="请输入时间"></input>
+  <input name="department" placeholder="请输入科室"></input>
+  <input name="departmentID" placeholder="请输入科室号"></input>
+  <textarea name="content" placeholder="请输入内容"></textarea>
+  <button  form-type="submit" style="background-color: skyblue;border-radius: 10px;color: #fff;">提交</button>
+  <button type="default" form-type="reset">重置</button>
+</form>

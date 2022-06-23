@@ -1,0 +1,20 @@
+<!-- 用户填写表单进行路线规划 -->
+<view class="search">
+  <form bindsubmit="onSubmit" bindreset="onReset">
+    <view class="box">
+      <input class="one" name="address" type='text' placeholder='请输入目标位置'></input>
+      导航方式：
+      <picker  name="modeID" mode="selector" range="{{modeItems}}"  bindchange="modeChange">
+          <view >{{mode}}</view>
+      </picker>
+    </view>
+    <view class="box">
+      <button form-type="submit" class="two">开始导航</button>
+      <button form-type="reset" class="two">重置</button>
+    </view>  
+  </form>
+</view>
+<!-- 地图-显示当前位置 -->
+<view class="map" >
+  <map longitude='{{longitude}}' latitude='{{latitude}}' style="width: 100%; height: 100%;" show-location="true"></map>
+</view>	

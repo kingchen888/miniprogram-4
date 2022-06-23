@@ -1,0 +1,55 @@
+<van-cell-group>
+  <van-field
+    value="{{ _id }}"
+    required
+    clearable
+    label="用户名"
+    icon="question-o"
+    placeholder="{{admins._id}}"
+    bind:click-icon="onClickIcon"
+    disabled
+  />
+  <van-field
+    model:value="{{ name }}"
+    label="姓名"
+    placeholder="{{admins.name}}"
+    border="{{ false }}"
+    bind:change="onChange_name"
+    disabled
+  />
+  <van-field
+    model:value="{{ years }}"
+    label="医龄"
+    placeholder="{{admins.years}}"
+    border="{{ false }}"
+    bind:change="onChange_years"
+  />
+  <van-field
+    model:value="{{ telephone }}"
+    label="电话"
+    placeholder="{{admins.telephone}}"
+    border="{{ false }}"
+    bind:change="onChange_telephone"
+  />
+  <van-field
+    model:value="{{ position }}"
+    label="职位"
+    placeholder="{{admins.position}}"
+    border="{{ false }}"
+    bind:change="onChange_position"
+  />
+  <!-- 下拉框 -->
+  <van-field
+    model:value="{{ department }}"
+    label="科室"
+    placeholder="{{admins.department}}"
+    border="{{ false }}"
+    bind:change="onChange_department"
+  />
+</van-cell-group>
+<van-button class="btn" block bind:click="confirmModification" round>确认修改</van-button>
+<van-toast 
+    id="van-toast"
+    type="fail "
+    position="top"
+/>

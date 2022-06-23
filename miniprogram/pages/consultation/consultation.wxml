@@ -1,0 +1,25 @@
+<view class="title">选择医生</view>
+<form bindsubmit="onSubmit">
+<!-- 科室 -->
+<view class="box">
+      <view>科室：</view>
+      <picker name="departmentID" mode="selector" range="{{departmentItems}}" bindchange="departmentChange">
+        <view class="one">{{department}}</view>
+      </picker>
+    </view>
+
+    <!-- 医生 -->
+    <view class="box">
+      <view>医生：</view>
+      <picker name="doctorID" mode="selector" range="{{doctorItems}}" 
+      range-key="{{'name'}}"
+      bindchange="doctorChange">
+        <view class="one">{{doctor}}</view>
+      </picker>
+    </view>
+
+    <!-- 提交按钮 -->
+    <button form-type="submit" class="two">快速问诊</button>
+
+</form>
+  

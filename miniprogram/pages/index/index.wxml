@@ -1,0 +1,27 @@
+<!-- 轮播图 -->
+<swiper indicator-dots="true" autoplay="true" circular="true" interval="3000" duration="500">
+    <swiper-item><image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/first.png?sign=8b547708161b32e77eb373037e3b94d4&t=1655013654"></image></swiper-item>
+    <swiper-item><image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/second.png?sign=ebf41595787eb4fc478ebec314c6d1e0&t=1655013670"></image></swiper-item>
+    <swiper-item><image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/third.png?sign=5b614bf42b064984215cb9c427d51b6e&t=1655013691"></image></swiper-item>
+    <swiper-item><image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/fourth.png?sign=85876310d9d2881f65956986cbb494e6&t=1655013711"></image></swiper-item>
+    <swiper-item><image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/fiveth.png?sign=65fb109a228f7986ebd1419e1f31c736&t=1655013728"></image></swiper-item>
+</swiper>
+<!-- 功能模块 -->
+<view class="box0">
+    <view class="box" bindtap="getConsultation">
+        <text>在线问诊</text>
+        <image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/wenyisheng.png?sign=1054baba2f10192dcc8b62d3bb33cc38&t=1655174475"></image>
+    </view>
+    <view class="box" bindtap="getInsurance">
+        <text>医保查询</text>
+        <image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/yibaochaxun.png?sign=4123d9ec3b94671560f80a67eb2fff86&t=1655174538"></image>
+    </view>
+    <view class="box" bindtap="getAppointment">
+        <text>预约挂号</text>
+        <image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/guahao.png?sign=c0934c17aefac427b436636809279a61&t=1655174439"></image>
+    </view>
+    <view class="box" bindtap="getKepu">
+        <text>医疗科普</text>
+        <image src="https://636c-cloud1-2gh2cmbd392a43fd-1309934636.tcb.qcloud.la/image/images/kepu.png?sign=e7490b4a83b002d2ca9753c9e7a5064b&t=1655174341"></image>
+    </view>
+</view>

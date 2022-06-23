@@ -1,0 +1,48 @@
+/* 轮播图 */
+swiper {
+  height: 400rpx;
+  margin: 10px 20px;
+  border: 2px solid	#87CEEB;
+  border-radius: 10px;
+  box-shadow:3px 3px #87CEEB ;
+  background-color: #f7f7f7;
+}
+swiper image {
+  width: 100%;
+  height: 100%;
+  border: 2px solid	#87CEEB;
+  border-radius: 9px;
+}
+/* 功能模块布局 */
+.box0 {
+  width: 90%;
+  height: 335px;
+  margin: 20px;
+  display: flex;
+  /* flex-direction: row;*/
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  align-content:space-between ;
+  background-color: #f7f7f7;
+  /* margin-top: 10px; */
+}
+/* 模块图片样式 */
+image {
+    width: 150px;
+    height: 129px;
+}
+/* 功能模块盒子样式 */
+.box {
+    /* margin-top: 10px; */
+    /* margin-left: 3px; */
+    width: 150px;
+    height: 156px;
+    text-align: center;
+    border: 2px rgb(195, 223, 231) solid;
+    border-radius: 5px;
+    box-shadow:3px 3px #87CEEB ;
+}
+text {
+    font-size: 20px;
+    color: rgb(141, 159, 173);
+}

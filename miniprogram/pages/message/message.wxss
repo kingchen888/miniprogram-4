@@ -1,0 +1,100 @@
+.head {
+    position: fixed;
+    height: 70rpx;
+    width: 100%;
+    text-align: center;
+    padding: 10rpx;
+    font-size: small;
+    color: rgb(114, 54, 54);
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+}
+.scroll {
+    margin-top: 90rpx;
+    height: 950rpx;
+    border-bottom: 1px solid #ccc;
+}
+.left {
+    /* height: 80px; */
+    /* background-color: pink; */
+    position: relative;
+}
+.left-head {
+    display: flex;
+    flex-direction: row;
+}
+.left-image {
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 50%;
+    margin-top: 35rpx;
+    margin-left: 10rpx;
+}
+.left-text {
+    display: inline-block;
+    margin-top: 35rpx;
+    width: 430rpx;
+    /* background-color: rgb(52, 247, 3); */
+    background-color: rgb(236, 236, 236);
+    margin-left: 20rpx;
+    text-indent:1em;
+    border-radius: 10rpx;
+    padding: 8rpx;
+}
+.right-head {
+    display: flex;
+    flex-direction: row;
+}
+.right-text {
+    display: inline-block;
+    margin-top: 35rpx;
+    width: 430rpx;
+    background-color: rgb(52, 247, 3);
+    margin-left: 150rpx;
+    text-indent:1em;
+    border-radius: 10rpx;
+    padding: 8rpx;
+}
+.right-image {
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 50%;
+    margin-top: 35rpx;
+    margin-left: 15rpx;
+}
+.input-box {
+    height: 80rpx;
+    width: 500rpx;
+    position:absolute;
+    bottom: 30rpx;
+    left: 50rpx;
+    line-height: 30rpx;
+    border: 1px solid #ccc;
+    border-radius: 30rpx;
+    padding-left: 30rpx;
+    color: slategray;
+}
+.send-out {
+    position: relative;
+    display: block;
+    width: 130rpx;
+    height: 82rpx;
+    border-radius: 20rpx;
+    line-height: 100rpx;
+    /* text-align: center; */
+    /* background-color: rgb(29, 241, 40); */
+    position:absolute;
+    bottom: 30rpx;
+    left: 590rpx;
+    text-indent:-8em;
+    overflow: hidden;
+}
+.fasong {
+    position: absolute;
+    color: #fff;
+    width: 130rpx;
+    height: 80rpx;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 255, 64);
+}

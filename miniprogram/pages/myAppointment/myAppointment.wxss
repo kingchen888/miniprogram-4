@@ -1,0 +1,38 @@
+/* 标题 */
+.title{
+  width: 100px;
+  height: 30px;
+  margin: 10px auto;
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid #87CEEB;
+  border-radius: 5px;
+  box-shadow: 2px 2px skyblue  ;
+}
+/* 预约的盒子样式 */
+.box{
+  /* display: flex; */
+  /* justify-content: space-between; */
+  width: 340px;
+  /* height: 100px; */
+  margin: 10px auto;
+  border: 2px solid #87CEEB;
+  border-radius: 5px;
+  box-shadow: 5px 5px #87CEEB;
+}
+.box .one{
+  display: flex;
+  margin: 5px;
+  padding-bottom: 5px;
+  justify-content: space-between;
+  border-bottom: 2px dotted	#87CEEB;
+}
+.box text{
+  color: rgb(243, 155, 221);
+}
+.box .two{
+  display: flex;
+  float: right;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}

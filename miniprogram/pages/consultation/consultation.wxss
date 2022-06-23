@@ -1,0 +1,42 @@
+.title{
+  width: 100px;
+  height: 30px;
+  margin: 10px auto;
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid #87CEEB;
+  border-radius: 5px;
+  box-shadow: 2px 2px skyblue  ;
+}
+/* 填写项目盒子 */
+.box{
+  margin: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* 标识以及输入字符格式 */
+.box view{
+  display: inline-block;
+  font-size: 20px;
+  /* margin-top: 24px; */
+}
+/* 输入框样式 */
+.one{
+  width: 200px;
+  height: 30px;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px 10px;
+  font-size: 20px;
+  border: 2px solid #87CEEB;
+  border-radius: 10px;
+  box-shadow: 3px 3px skyblue  ;
+}
+/* 按钮样式 */
+.two{
+  
+  background-color: #87CEEB;
+  color: #ffffff;
+  border-radius: 15px ;
+}

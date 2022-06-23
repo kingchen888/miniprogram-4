@@ -1,0 +1,7 @@
+<!--pageLogin/messageList/messageList.wxml-->
+<view class="box" wx:for="{{message}}" data-index="{{index}}" bindtap="jumpMessage">
+    <button  class="button">
+        <image src="{{item.message[0].userInfo.avatarUrl}}" class="image" mode="aspectFit"></image>
+        <view class="name">{{item.message[0].userInfo.nickName}}</view>
+    </button>
+</view>

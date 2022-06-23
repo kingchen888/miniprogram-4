@@ -1,0 +1,5 @@
+<view wx:for="{{record}}" wx:key="id" >
+    <view class="box1">{{item.title}}</view>
+    <view class="box2">{{item.time}}</view>
+    <view class="box3">{{item.content}}</view>
+</view>

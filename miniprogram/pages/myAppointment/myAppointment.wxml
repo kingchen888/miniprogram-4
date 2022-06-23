@@ -1,0 +1,27 @@
+<view class="title">我的预约</view>
+<!--用wx:for循环显示获取到的云数据库中的数据-->
+<view class='box' wx:for="{{record}}"wx:for-item="item" wx:key="id" >
+  
+    <!--item就相当于数组名+下标的结合体，适用于调用数组所有数据-->
+    <view class="one">
+      <!--index为每个数据对应的下标-->
+      <view >序号：{{index+1}}</view>
+      <view>姓名：{{item.realname}}</view>
+    </view>
+    <view class="one">
+      <view >电话号码：{{item.phonenumber}}</view>
+      <view >科室：{{item.department}}</view>
+    </view>
+    <view class="one">
+      <view>预约时间：{{item.time}}</view>
+      <view>医生：{{item.doctor}}</view>
+    </view>
+    <view class="one">备注：{{item.remarks}}</view>
+    <view class="one">
+      <view>医院：{{item.hospital}}</view>
+      <view  class="two" bindtap="removeAppointment" data-id="{{item._id}}" >
+       <text>取消预约</text>
+      </view>
+    </view>
+</view>
+

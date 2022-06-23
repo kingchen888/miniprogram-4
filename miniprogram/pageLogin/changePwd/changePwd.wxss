@@ -1,0 +1,11 @@
+/* pageLogin/changePwd/changePwd.wxss */
+van-button{
+  margin-top: 10px;
+
+}
+van-field{
+  margin: 5px 10px;
+  border: 2px solid skyblue;
+  border-radius: 10px;
+  /* box-shadow: 3px 3px skyblue; */
+}
